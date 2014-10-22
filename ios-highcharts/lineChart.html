@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -7,15 +8,22 @@
     <script src="http://code.highcharts.com/modules/exporting.js"></script>
 </head>
 <body>
-    <div id="container" style="height: 400px;"></div>
+    <div id="container" style="height: 350px;"></div>
 
     <script type="text/javascript">
-        
+
           // web debug
-          //draw([[Date.UTC(2014, 0, 1, 10, 1), 59.2], [Date.UTC(2014, 0, 1, 11, 2), 59.6]]);
-          
+          /* 
+          draw(
+            [
+              [Date.UTC(2014, 0, 1, 10, 1), 59.2],
+              [Date.UTC(2014, 0, 1, 11, 2), 59.6]
+            ]
+           );
+          */
+
           function draw(item){
-          
+
             $('#container').highcharts({
                                      credits: {
                                         enabled: false
@@ -101,8 +109,9 @@
                                        enabled: false
                                      }
                                 });
-          
-          }
+                    
+              }
+    
     </script>
 </body>
 </html>

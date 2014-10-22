@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F0339C2D-EEEE-44A5-AC84-DBE7D0C9246F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ios-highcharts</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E7B5B61419FB0AC9457ABAF95C086C29E8DF904B</key>
+		<string>github.com:naotty/ios-highcharts.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios-highcharts.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E7B5B61419FB0AC9457ABAF95C086C29E8DF904B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:naotty/ios-highcharts.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E7B5B61419FB0AC9457ABAF95C086C29E8DF904B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E7B5B61419FB0AC9457ABAF95C086C29E8DF904B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-highcharts</string>
+		</dict>
+	</array>
+</dict>
+</plist>
