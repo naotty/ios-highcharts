@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -8,14 +9,21 @@
 </head>
 <body>
     <div id="container" style="height: 400px;"></div>
+    <span id="description" style="display:inline-block; padding: 20px; max-width: 320px; word-break: break-all;">hogehogehogehogehogehogehogehogehogehogehogehoge</span>
 
     <script type="text/javascript">
-        
+
           // web debug
-          //draw([[Date.UTC(2014, 0, 1, 10, 1), 59.2], [Date.UTC(2014, 0, 1, 11, 2), 59.6]]);
-          
-          function draw(item){
-          
+          draw(
+            [
+              [Date.UTC(2014, 0, 1, 10, 1), 59.2],
+              [Date.UTC(2014, 0, 1, 11, 2), 59.6]
+            ],
+            "hogehogehogehogehogehogehogehogehogehogehogehoge"
+          );
+
+          function draw(item, description){
+
             $('#container').highcharts({
                                      credits: {
                                         enabled: false
@@ -101,8 +109,9 @@
                                        enabled: false
                                      }
                                 });
-          
-          }
+
+                $("#description").html(description);
+              }
     </script>
 </body>
 </html>
