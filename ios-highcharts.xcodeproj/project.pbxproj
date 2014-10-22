@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4B5FAC6B19F636ED001342B7 /* lineChart.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FAC6A19F636ED001342B7 /* lineChart.html */; };
+		4BD4683319F775380076E6D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD4683219F775380076E6D7 /* Default-568h@2x.png */; };
 		4BF7EA5919F10B0F002A8B0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7EA5819F10B0F002A8B0E /* main.m */; };
 		4BF7EA5C19F10B0F002A8B0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7EA5B19F10B0F002A8B0E /* AppDelegate.m */; };
 		4BF7EA5F19F10B0F002A8B0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7EA5E19F10B0F002A8B0E /* ViewController.m */; };
 		4BF7EA6219F10B0F002A8B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7EA6019F10B0F002A8B0E /* Main.storyboard */; };
 		4BF7EA6419F10B0F002A8B0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7EA6319F10B0F002A8B0E /* Images.xcassets */; };
 		4BF7EA6719F10B0F002A8B0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7EA6519F10B0F002A8B0E /* LaunchScreen.xib */; };
-		4BF7EA7319F10B0F002A8B0E /* ios_hightchartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7EA7219F10B0F002A8B0E /* ios_hightchartsTests.m */; };
+		4BF7EA7319F10B0F002A8B0E /* ios_highchartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7EA7219F10B0F002A8B0E /* ios_highchartsTests.m */; };
 		4BF7EA7E19F10B5F002A8B0E /* graph.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7EA7C19F10B5F002A8B0E /* graph.html */; };
 		4BF7EA7F19F10B5F002A8B0E /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7EA7D19F10B5F002A8B0E /* TemplateIcon2x.png */; };
 /* End PBXBuildFile section */
@@ -31,7 +32,8 @@
 
 /* Begin PBXFileReference section */
 		4B5FAC6A19F636ED001342B7 /* lineChart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lineChart.html; sourceTree = "<group>"; };
-		4BF7EA5319F10B0F002A8B0E /* ios-hightcharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-hightcharts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD4683219F775380076E6D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4BF7EA5319F10B0F002A8B0E /* ios-highcharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-highcharts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF7EA5719F10B0F002A8B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BF7EA5819F10B0F002A8B0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BF7EA5A19F10B0F002A8B0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,9 +43,9 @@
 		4BF7EA6119F10B0F002A8B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BF7EA6319F10B0F002A8B0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4BF7EA6619F10B0F002A8B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4BF7EA6C19F10B0F002A8B0E /* ios-hightchartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-hightchartsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF7EA6C19F10B0F002A8B0E /* ios-highchartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-highchartsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF7EA7119F10B0F002A8B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BF7EA7219F10B0F002A8B0E /* ios_hightchartsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_hightchartsTests.m; sourceTree = "<group>"; };
+		4BF7EA7219F10B0F002A8B0E /* ios_highchartsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_highchartsTests.m; sourceTree = "<group>"; };
 		4BF7EA7C19F10B5F002A8B0E /* graph.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = graph.html; sourceTree = "<group>"; };
 		4BF7EA7D19F10B5F002A8B0E /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,8 +71,9 @@
 		4BF7EA4A19F10B0E002A8B0E = {
 			isa = PBXGroup;
 			children = (
-				4BF7EA5519F10B0F002A8B0E /* ios-hightcharts */,
-				4BF7EA6F19F10B0F002A8B0E /* ios-hightchartsTests */,
+				4BD4683219F775380076E6D7 /* Default-568h@2x.png */,
+				4BF7EA5519F10B0F002A8B0E /* ios-highcharts */,
+				4BF7EA6F19F10B0F002A8B0E /* ios-highchartsTests */,
 				4BF7EA5419F10B0F002A8B0E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,13 +81,13 @@
 		4BF7EA5419F10B0F002A8B0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4BF7EA5319F10B0F002A8B0E /* ios-hightcharts.app */,
-				4BF7EA6C19F10B0F002A8B0E /* ios-hightchartsTests.xctest */,
+				4BF7EA5319F10B0F002A8B0E /* ios-highcharts.app */,
+				4BF7EA6C19F10B0F002A8B0E /* ios-highchartsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4BF7EA5519F10B0F002A8B0E /* ios-hightcharts */ = {
+		4BF7EA5519F10B0F002A8B0E /* ios-highcharts */ = {
 			isa = PBXGroup;
 			children = (
 				4BF7EA5A19F10B0F002A8B0E /* AppDelegate.h */,
@@ -99,7 +102,7 @@
 				4B5FAC6A19F636ED001342B7 /* lineChart.html */,
 				4BF7EA7D19F10B5F002A8B0E /* TemplateIcon2x.png */,
 			);
-			path = "ios-hightcharts";
+			path = "ios-highcharts";
 			sourceTree = "<group>";
 		};
 		4BF7EA5619F10B0F002A8B0E /* Supporting Files */ = {
@@ -111,13 +114,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4BF7EA6F19F10B0F002A8B0E /* ios-hightchartsTests */ = {
+		4BF7EA6F19F10B0F002A8B0E /* ios-highchartsTests */ = {
 			isa = PBXGroup;
 			children = (
-				4BF7EA7219F10B0F002A8B0E /* ios_hightchartsTests.m */,
+				4BF7EA7219F10B0F002A8B0E /* ios_highchartsTests.m */,
 				4BF7EA7019F10B0F002A8B0E /* Supporting Files */,
 			);
-			path = "ios-hightchartsTests";
+			path = "ios-highchartsTests";
 			sourceTree = "<group>";
 		};
 		4BF7EA7019F10B0F002A8B0E /* Supporting Files */ = {
@@ -131,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4BF7EA5219F10B0F002A8B0E /* ios-hightcharts */ = {
+		4BF7EA5219F10B0F002A8B0E /* ios-highcharts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BF7EA7619F10B0F002A8B0E /* Build configuration list for PBXNativeTarget "ios-hightcharts" */;
+			buildConfigurationList = 4BF7EA7619F10B0F002A8B0E /* Build configuration list for PBXNativeTarget "ios-highcharts" */;
 			buildPhases = (
 				4BF7EA4F19F10B0F002A8B0E /* Sources */,
 				4BF7EA5019F10B0F002A8B0E /* Frameworks */,
@@ -143,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = "ios-hightcharts";
+			name = "ios-highcharts";
 			productName = "ios-hightcharts";
-			productReference = 4BF7EA5319F10B0F002A8B0E /* ios-hightcharts.app */;
+			productReference = 4BF7EA5319F10B0F002A8B0E /* ios-highcharts.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4BF7EA6B19F10B0F002A8B0E /* ios-hightchartsTests */ = {
+		4BF7EA6B19F10B0F002A8B0E /* ios-highchartsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BF7EA7919F10B0F002A8B0E /* Build configuration list for PBXNativeTarget "ios-hightchartsTests" */;
+			buildConfigurationList = 4BF7EA7919F10B0F002A8B0E /* Build configuration list for PBXNativeTarget "ios-highchartsTests" */;
 			buildPhases = (
 				4BF7EA6819F10B0F002A8B0E /* Sources */,
 				4BF7EA6919F10B0F002A8B0E /* Frameworks */,
@@ -161,9 +164,9 @@
 			dependencies = (
 				4BF7EA6E19F10B0F002A8B0E /* PBXTargetDependency */,
 			);
-			name = "ios-hightchartsTests";
+			name = "ios-highchartsTests";
 			productName = "ios-hightchartsTests";
-			productReference = 4BF7EA6C19F10B0F002A8B0E /* ios-hightchartsTests.xctest */;
+			productReference = 4BF7EA6C19F10B0F002A8B0E /* ios-highchartsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -173,7 +176,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = "Naoto Teruya";
+				ORGANIZATIONNAME = tnaototo;
 				TargetAttributes = {
 					4BF7EA5219F10B0F002A8B0E = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -184,7 +187,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4BF7EA4E19F10B0E002A8B0E /* Build configuration list for PBXProject "ios-hightcharts" */;
+			buildConfigurationList = 4BF7EA4E19F10B0E002A8B0E /* Build configuration list for PBXProject "ios-highcharts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -197,8 +200,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4BF7EA5219F10B0F002A8B0E /* ios-hightcharts */,
-				4BF7EA6B19F10B0F002A8B0E /* ios-hightchartsTests */,
+				4BF7EA5219F10B0F002A8B0E /* ios-highcharts */,
+				4BF7EA6B19F10B0F002A8B0E /* ios-highchartsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -213,6 +216,7 @@
 				4BF7EA6719F10B0F002A8B0E /* LaunchScreen.xib in Resources */,
 				4BF7EA6419F10B0F002A8B0E /* Images.xcassets in Resources */,
 				4BF7EA7E19F10B5F002A8B0E /* graph.html in Resources */,
+				4BD4683319F775380076E6D7 /* Default-568h@2x.png in Resources */,
 				4B5FAC6B19F636ED001342B7 /* lineChart.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BF7EA7319F10B0F002A8B0E /* ios_hightchartsTests.m in Sources */,
+				4BF7EA7319F10B0F002A8B0E /* ios_highchartsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +254,7 @@
 /* Begin PBXTargetDependency section */
 		4BF7EA6E19F10B0F002A8B0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4BF7EA5219F10B0F002A8B0E /* ios-hightcharts */;
+			target = 4BF7EA5219F10B0F002A8B0E /* ios-highcharts */;
 			targetProxy = 4BF7EA6D19F10B0F002A8B0E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -355,9 +359,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "ios-hightcharts/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ios-highcharts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ios-highcharts";
 			};
 			name = Debug;
 		};
@@ -365,9 +369,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "ios-hightcharts/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ios-highcharts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ios-highcharts";
 			};
 			name = Release;
 		};
@@ -383,10 +387,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ios-hightchartsTests/Info.plist";
+				INFOPLIST_FILE = "ios-highchartsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-hightcharts.app/ios-hightcharts";
+				PRODUCT_NAME = "ios-highchartsTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-highcharts.app/ios-highcharts";
 			};
 			name = Debug;
 		};
@@ -398,17 +402,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ios-hightchartsTests/Info.plist";
+				INFOPLIST_FILE = "ios-highchartsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-hightcharts.app/ios-hightcharts";
+				PRODUCT_NAME = "ios-highchartsTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-highcharts.app/ios-highcharts";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4BF7EA4E19F10B0E002A8B0E /* Build configuration list for PBXProject "ios-hightcharts" */ = {
+		4BF7EA4E19F10B0E002A8B0E /* Build configuration list for PBXProject "ios-highcharts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4BF7EA7419F10B0F002A8B0E /* Debug */,
@@ -417,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BF7EA7619F10B0F002A8B0E /* Build configuration list for PBXNativeTarget "ios-hightcharts" */ = {
+		4BF7EA7619F10B0F002A8B0E /* Build configuration list for PBXNativeTarget "ios-highcharts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4BF7EA7719F10B0F002A8B0E /* Debug */,
@@ -426,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BF7EA7919F10B0F002A8B0E /* Build configuration list for PBXNativeTarget "ios-hightchartsTests" */ = {
+		4BF7EA7919F10B0F002A8B0E /* Build configuration list for PBXNativeTarget "ios-highchartsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4BF7EA7A19F10B0F002A8B0E /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4BF7EA5219F10B0F002A8B0E"
-               BuildableName = "ios-hightcharts.app"
-               BlueprintName = "ios-hightcharts"
-               ReferencedContainer = "container:ios-hightcharts.xcodeproj">
+               BuildableName = "ios-highcharts.app"
+               BlueprintName = "ios-highcharts"
+               ReferencedContainer = "container:ios-highcharts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4BF7EA6B19F10B0F002A8B0E"
-               BuildableName = "ios-hightchartsTests.xctest"
-               BlueprintName = "ios-hightchartsTests"
-               ReferencedContainer = "container:ios-hightcharts.xcodeproj">
+               BuildableName = "ios-highchartsTests.xctest"
+               BlueprintName = "ios-highchartsTests"
+               ReferencedContainer = "container:ios-highcharts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4BF7EA6B19F10B0F002A8B0E"
-               BuildableName = "ios-hightchartsTests.xctest"
-               BlueprintName = "ios-hightchartsTests"
-               ReferencedContainer = "container:ios-hightcharts.xcodeproj">
+               BuildableName = "ios-highchartsTests.xctest"
+               BlueprintName = "ios-highchartsTests"
+               ReferencedContainer = "container:ios-highcharts.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4BF7EA5219F10B0F002A8B0E"
-            BuildableName = "ios-hightcharts.app"
-            BlueprintName = "ios-hightcharts"
-            ReferencedContainer = "container:ios-hightcharts.xcodeproj">
+            BuildableName = "ios-highcharts.app"
+            BlueprintName = "ios-highcharts"
+            ReferencedContainer = "container:ios-highcharts.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4BF7EA5219F10B0F002A8B0E"
-            BuildableName = "ios-hightcharts.app"
-            BlueprintName = "ios-hightcharts"
-            ReferencedContainer = "container:ios-hightcharts.xcodeproj">
+            BuildableName = "ios-highcharts.app"
+            BlueprintName = "ios-highcharts"
+            ReferencedContainer = "container:ios-highcharts.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4BF7EA5219F10B0F002A8B0E"
-            BuildableName = "ios-hightcharts.app"
-            BlueprintName = "ios-hightcharts"
-            ReferencedContainer = "container:ios-hightcharts.xcodeproj">
+            BuildableName = "ios-highcharts.app"
+            BlueprintName = "ios-highcharts"
+            ReferencedContainer = "container:ios-highcharts.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
