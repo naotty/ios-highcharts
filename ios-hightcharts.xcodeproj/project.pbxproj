@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B5FAC6B19F636ED001342B7 /* lineChart.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FAC6A19F636ED001342B7 /* lineChart.html */; };
 		4BF7EA5919F10B0F002A8B0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7EA5819F10B0F002A8B0E /* main.m */; };
 		4BF7EA5C19F10B0F002A8B0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7EA5B19F10B0F002A8B0E /* AppDelegate.m */; };
 		4BF7EA5F19F10B0F002A8B0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7EA5E19F10B0F002A8B0E /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		4BF7EA6419F10B0F002A8B0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7EA6319F10B0F002A8B0E /* Images.xcassets */; };
 		4BF7EA6719F10B0F002A8B0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7EA6519F10B0F002A8B0E /* LaunchScreen.xib */; };
 		4BF7EA7319F10B0F002A8B0E /* ios_hightchartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7EA7219F10B0F002A8B0E /* ios_hightchartsTests.m */; };
+		4BF7EA7E19F10B5F002A8B0E /* graph.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7EA7C19F10B5F002A8B0E /* graph.html */; };
+		4BF7EA7F19F10B5F002A8B0E /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7EA7D19F10B5F002A8B0E /* TemplateIcon2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B5FAC6A19F636ED001342B7 /* lineChart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lineChart.html; sourceTree = "<group>"; };
 		4BF7EA5319F10B0F002A8B0E /* ios-hightcharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-hightcharts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF7EA5719F10B0F002A8B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BF7EA5819F10B0F002A8B0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		4BF7EA6C19F10B0F002A8B0E /* ios-hightchartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-hightchartsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF7EA7119F10B0F002A8B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BF7EA7219F10B0F002A8B0E /* ios_hightchartsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_hightchartsTests.m; sourceTree = "<group>"; };
+		4BF7EA7C19F10B5F002A8B0E /* graph.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = graph.html; sourceTree = "<group>"; };
+		4BF7EA7D19F10B5F002A8B0E /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,9 @@
 				4BF7EA6319F10B0F002A8B0E /* Images.xcassets */,
 				4BF7EA6519F10B0F002A8B0E /* LaunchScreen.xib */,
 				4BF7EA5619F10B0F002A8B0E /* Supporting Files */,
+				4BF7EA7C19F10B5F002A8B0E /* graph.html */,
+				4B5FAC6A19F636ED001342B7 /* lineChart.html */,
+				4BF7EA7D19F10B5F002A8B0E /* TemplateIcon2x.png */,
 			);
 			path = "ios-hightcharts";
 			sourceTree = "<group>";
@@ -199,9 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF7EA7F19F10B5F002A8B0E /* TemplateIcon2x.png in Resources */,
 				4BF7EA6219F10B0F002A8B0E /* Main.storyboard in Resources */,
 				4BF7EA6719F10B0F002A8B0E /* LaunchScreen.xib in Resources */,
 				4BF7EA6419F10B0F002A8B0E /* Images.xcassets in Resources */,
+				4BF7EA7E19F10B5F002A8B0E /* graph.html in Resources */,
+				4B5FAC6B19F636ED001342B7 /* lineChart.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				4BF7EA7819F10B0F002A8B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BF7EA7919F10B0F002A8B0E /* Build configuration list for PBXNativeTarget "ios-hightchartsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				4BF7EA7B19F10B0F002A8B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

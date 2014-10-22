@@ -1,0 +1,108 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+</head>
+<body>
+    <div id="container" style="height: 400px;"></div>
+
+    <script type="text/javascript">
+        
+          // web debug
+          //draw([[Date.UTC(2014, 0, 1, 10, 1), 59.2], [Date.UTC(2014, 0, 1, 11, 2), 59.6]]);
+          
+          function draw(item){
+          
+            $('#container').highcharts({
+                                     credits: {
+                                        enabled: false
+                                     },
+                                     exporting: {
+                                        enabled: false  // 右上のメニューボタン非表示
+                                     },
+                                     chart: {
+                                        zoomType: 'x',
+                                        //animation: false
+                                     },
+                                     title: {
+                                        text: '体重'
+                                     },
+                                     xAxis: {
+                                       title: {
+                                            text: null
+                                       },
+                                       type: 'datetime',
+                                       labels: {
+                                            //enabled: false  // X軸ラベル非表示
+                                            formatter: function(){
+                                                var wkDate = new Date(this.value);
+                                                return (wkDate.getMonth() + 1) + '月' + wkDate.getDate() + '日';
+                                            }
+                                       }
+                                     },
+                                     yAxis: {
+                                       title: {
+                                            text: null
+                                       }
+                                     },
+                                     tooltip: {
+                                       //headerFormat: '<span style="font-size:10px">{point.key}</span><br><table>',
+                                       //pointFormat: '<tr><td style="padding:0"><b>{point.y:.1f} kg</b></td></tr>',
+                                       //footerFormat: '</table>',
+                                       crosshairs: {
+                                            width: 2,
+                                            color: 'blue'
+                                       },
+                                       formatter: function(){
+                                            var wkDate = new Date(this.point.x);
+                                            var xLabelForDisplay = wkDate.getFullYear() + '年' + (wkDate.getMonth() + 1) + '月' + wkDate.getDate() + '日 ' + wkDate.toLocaleTimeString();
+                                            var s = '<span style="font-size:10px">' + xLabelForDisplay + '</span><br><table>';
+                                            s += '<tr><td style="padding:0"><b>' + this.point.y + ' kg</b></td></tr>';
+                                            s += '</table>';
+                                            return s;
+                                        }
+                                     },
+                                     series: [{
+                                              name: '体重',
+                                              data: [
+                                                     item[0],
+                                                     item[1],
+                                                     [Date.UTC(2014, 0, 1, 20, 1), 59.2],
+                                                     [Date.UTC(2014, 0, 2, 20, 1), 59.6],
+                                                     [Date.UTC(2014, 1, 2, 20, 1), 52.2],
+                                                     [Date.UTC(2014, 1, 3, 20, 1), 50.4],
+                                                     [Date.UTC(2014, 1, 4, 20, 1), 57.7],
+                                                     [Date.UTC(2014, 1, 5, 20, 23), 56.8],
+                                                     [Date.UTC(2014, 1, 6, 20, 1), 54.5],
+                                                     [Date.UTC(2014, 1, 7, 13, 1), 58],
+                                                     [Date.UTC(2014, 2, 2, 20, 1), 54.4],
+                                                     [Date.UTC(2014, 3, 12, 20, 1), 54.8],
+                                                     [Date.UTC(2014, 3, 22, 20, 1), 55.2],
+                                                     [Date.UTC(2014, 5, 2, 2, 1), 53.6],
+                                                     [Date.UTC(2014, 5, 4, 20, 1), 58.1],
+                                                     [Date.UTC(2014, 5, 7, 20, 1), 54.9],
+                                                     [Date.UTC(2014, 6, 1, 21, 1), 57.7],
+                                                     [Date.UTC(2014, 6, 2, 20, 1), 51.7],
+                                                     [Date.UTC(2014, 7, 3, 20, 1), 56.5],
+                                                     [Date.UTC(2014, 7, 4, 20, 1), 52.4],
+                                                     [Date.UTC(2014, 8, 14, 20, 1), 53.9],
+                                                     [Date.UTC(2014, 8, 22, 20, 1), 54.1],
+                                                     [Date.UTC(2014, 8, 23, 20, 1), 54.2]
+                                                     ],
+                                              //pointStart: Date.UTC(2014, 0, 1),
+                                              //pointInterval: 86400 * 1000 // one day
+                                              //pointInterval: 3600 * 1000 // one hour
+                                              //pointInterval: 3600 * 24 * 30 * 1000 // one month
+                                              }],
+                                     legend: {
+                                       enabled: false
+                                     }
+                                });
+          
+          }
+    </script>
+</body>
+</html>

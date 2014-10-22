@@ -1,0 +1,67 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+</head>
+<body>
+    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+    <script type="text/javascript">
+        draw([10,20,30,40,50]);
+        //サンプルの即時実行から変更
+        //Obj-C側でdrawを呼び出す
+        function draw(item) {
+            //alert(item);
+            $('#container').highcharts({
+                                       chart: {
+                                        type: 'column'
+                                       },
+                                       title: {
+                                        text: '期末テストの結果'
+                                       },
+                                       subtitle: {
+                                        text: '中学２年生　二学期'
+                                       },
+                                       xAxis: {
+                                        categories: [
+                                                    '国語',
+                                                    '数学',
+                                                    '英語',
+                                                    '社会',
+                                                    '理科'
+                                                    ]
+                                       },
+                                       yAxis: {
+                                        min: 0,
+                                        title: {
+                                            text: '点数'
+                                        }
+                                       },
+                                       tooltip: {
+                                        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                                        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                                            '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                                       footerFormat: '</table>',
+                                       shared: true,
+                                       useHTML: true
+                                       },
+                                       plotOptions: {
+                                       column: {
+                                       pointPadding: 0.2,
+                                       borderWidth: 0
+                                       }
+                                       },
+                                       series: [{
+                                                name: '山田太郎',
+                                                //ここでObj-C側から取得したデータをセットします。
+                                                data: [item[0], item[1], item[2], item[3], item[4]]
+
+                                                }]
+                                       });
+        };
+    </script>
+</body>
+</html>

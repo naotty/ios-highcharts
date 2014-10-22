@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  ios-hightcharts
 //
-//  Created by 照屋直人 on 2014/10/17.
-//  Copyright (c) 2014年 Naoto Teruya. All rights reserved.
+//  Created by tnaototo on 2014/10/17.
+//  Copyright (c) 2014年 tnaototo. All rights reserved.
 //
 
 #import "AppDelegate.h"
