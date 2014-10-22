@@ -13,5 +13,9 @@
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (weak, nonatomic) IBOutlet UITextView *myComment;
 
+@property (weak, nonatomic) IBOutlet UISegmentedControl *mySegumentedCtrl;
+
+- (IBAction)SegChanged:(id)sender;
+
 @end
 
